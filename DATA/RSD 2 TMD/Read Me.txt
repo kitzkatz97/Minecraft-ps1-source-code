@@ -1,7 +1,0 @@
-Put the following files in this directory
-.RSD
-.PLY
-.MAT
-.TIM - All tim textures associated with the model
-
-Then run the Convert.bat file
