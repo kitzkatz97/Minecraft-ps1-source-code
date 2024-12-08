@@ -3,3 +3,5 @@ publicly  available version of the different ps1 versions of minecraft's code fo
 
 credit to @rubixcube6 on youtube for the car example project code that this is all built apon! check it out for yourself in more detail
 here:https://mbdesigns.itch.io/ps1-homebrew-source-code-rendering-3d-graphics-with-psyq
+
+ NOTE: this requires PSYQ in order to function & compile!
