@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<iso_project image_name="game.bin" cue_sheet="game.cue" no_xa="1">
+	<track type="data">
+		<license file="LICENSEA.DAT"/>
+		<directory_tree>
+			<file name="SYSTEM.CNF"	type="data"	source="SYSTEM.CNF"/>
+			<file name="MAIN.EXE"	type="data"	source="MAIN.EXE"/>
+			<!-- Add your own files or folders here -->
+			<file name="ATLAS.TIM"	type="data"	source="DATA/ATLAS.TIM"/>
+			<file name="COBBLE.TMD"	type="data"	source="DATA/COBBLE.TMD"/>
+			<file name="GRASS.TMD"	type="data"	source="DATA/GRASS.TMD"/>
+			<file name="DIRT.TMD"	type="data"	source="DATA/DIRT.TMD"/>
+			<file name="STONE.TMD"	type="data"	source="DATA/STONE.TMD"/>
+			<file name="LOG.TMD"	type="data"	source="DATA/LOG.TMD"/>
+			<file name="LEAVES.TMD"	type="data"	source="DATA/LEAVES.TMD"/>
+			<file name="GRAVEL.TMD"	type="data"	source="DATA/GRAVEL.TMD"/>
+			<file name="SAND.TMD"	type="data"	source="DATA/SAND.TMD"/>
+			<file name="MOSCOB.TMD"	type="data"	source="DATA/MOSCOB.TMD"/>
+			<file name="SPLANKS.TMD"	type="data"	source="DATA/SPLANKS.TMD"/>
+            <file name="PLANKS.TMD"	type="data"	source="DATA/PLANKS.TMD"/>
+			<file name="BEDROCK.TMD"	type="data"	source="DATA/BEDROCK.TMD"/>
+			<file name="SCREEN.TIM"	type="data"	source="DATA/SCREEN.TIM"/>
+			<file name="CHAIR.TMD"	type="data"	source="DATA/CHAIR.TMD"/>
+			<file name="DEBUGTV.TMD"	type="data"	source="DATA/DEBUGTV.TMD"/>
+			
+			<dummy sectors="1024"/>
+		</directory_tree>
+	</track>
+</iso_project>
