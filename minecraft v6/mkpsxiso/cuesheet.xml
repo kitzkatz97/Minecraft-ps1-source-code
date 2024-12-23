@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<iso_project image_name="game.bin" cue_sheet="game.cue" no_xa="1">
+	<track type="data">
+		<license file="LICENSEA.DAT"/>
+		<directory_tree>
+			<file name="SYSTEM.CNF"	type="data"	source="SYSTEM.CNF"/>
+			<file name="MAIN.EXE"	type="data"	source="MAIN.EXE"/>
+			<!-- Add your own files or folders here -->
+			<file name="ATLAS.TIM"	type="data"	source="DATA/ATLAS.TIM"/>
+			
+			<file name="HOTB.TIM"	type="data"	source="DATA/GUI/HOTB.TIM"/>
+			<file name="HOTB_S.TIM"	type="data"	source="DATA/GUI/HOTB_S.TIM"/>
+			<file name="MENU_BG.TIM"	type="data"	source="DATA/GUI/MENU_BG.TIM"/>
+			<file name="LOGO.TIM"	type="data"	source="DATA/GUI/LOGO.TIM"/>
+			<file name="M_BUTT.TIM"	type="data"	source="DATA/GUI/M_BUTT.TIM"/>
+			<file name="M_SLIDER.TIM"	type="data"	source="DATA/GUI/M_SLIDER.TIM"/>
+			<file name="M_SLIDE.TIM"	type="data"	source="DATA/GUI/M_SLIDE.TIM"/>
+			<file name="INV.TIM"	type="data"	source="DATA/GUI/INV.TIM"/>
+			<file name="IA_PLAY.TIM"	type="data"	source="DATA/GUI/IA_PLAY.TIM"/>
+            <file name="SCREEN.TIM"	type="data"	source="DATA/SCREEN.TIM"/>
+			<!--
+			<file name="Grass1.VAG"	type="data"	source="DATA/SOUND/blocks/Grass1.VAG"/>
+			<file name="Grass2.VAG"	type="data"	source="DATA/SOUND/blocks/Grass2.VAG"/>
+			<file name="Grass3.VAG"	type="data"	source="DATA/SOUND/blocks/Grass3.VAG"/>
+			<file name="Grass4.VAG"	type="data"	source="DATA/SOUND/blocks/Grass4.VAG"/>
+			
+			<file name="forestD.VAG" type="data"	source="DATA/SOUND/loops/forestD.VAG"/>
+			<file name="forestN.VAG" type="data"	source="DATA/SOUND/loops/forestN.VAG"/>
+			<file name="cave.VAG"    type="data"	source="DATA/SOUND/loops/cave.VAG"/>
+			<file name="Ocean.VAG"   type="data"	source="DATA/SOUND/loops/Ocean.VAG"/>
+			-->
+			
+			
+			
+			
+			<file name="CHAIR.TMD"	type="data"	source="DATA/CHAIR.TMD"/>
+			<file name="DEBUGTV.TMD"	type="data"	source="DATA/DEBUGTV.TMD"/>
+			<file name="1X1.TMD"	type="data"	source="DATA/ATLAS/1X1.TMD"/>
+			<file name="1X2.TMD"	type="data"	source="DATA/ATLAS/1X2.TMD"/>
+			<file name="1X3.TMD"	type="data"	source="DATA/ATLAS/1X3.TMD"/>
+			<file name="1X4.TMD"	type="data"	source="DATA/ATLAS/1X4.TMD"/>
+			<file name="1X5.TMD"	type="data"	source="DATA/ATLAS/1X5.TMD"/>
+			
+			<file name="1X8.TMD"	type="data"	source="DATA/ATLAS/1X8.TMD"/>
+			<file name="1X9.TMD"	type="data"	source="DATA/ATLAS/1X9.TMD"/>
+			<file name="1X10.TMD"	type="data"	source="DATA/ATLAS/1X10.TMD"/>
+			<file name="1X11.TMD"	type="data"	source="DATA/ATLAS/1X11.TMD"/>
+			<file name="1X13.TMD"	type="data"	source="DATA/ATLAS/1X12.TMD"/>
+			<file name="1X14.TMD"	type="data"	source="DATA/ATLAS/1X13.TMD"/>
+			<file name="1X15.TMD"	type="data"	source="DATA/ATLAS/1X14.TMD"/>
+			<file name="1X16.TMD"	type="data"	source="DATA/ATLAS/1X15.TMD"/>
+			
+			
+			
+			<file name="2X1.TMD"	type="data"	source="DATA/ATLAS/2X1.TMD"/>
+			<file name="2X2.TMD"	type="data"	source="DATA/ATLAS/2X2.TMD"/>
+			<file name="2X3.TMD"	type="data"	source="DATA/ATLAS/2X3.TMD"/>
+			<file name="2X4.TMD"	type="data"	source="DATA/ATLAS/2X4.TMD"/>
+			<file name="2X5.TMD"	type="data"	source="DATA/ATLAS/2X5.TMD"/>
+			<file name="2X6.TMD"	type="data"	source="DATA/ATLAS/2X6.TMD"/>
+			
+			
+			<file name="3X4.TMD"	type="data"	source="DATA/ATLAS/3X4.TMD"/>
+			<file name="3X5.TMD"	type="data"	source="DATA/ATLAS/3X5.TMD"/>
+			
+			<file name="4X2.TMD"	type="data"	source="DATA/ATLAS/4X2.TMD"/>
+			<file name="4X4.TMD"	type="data"	source="DATA/ATLAS/4X4.TMD"/>
+			<file name="4X5.TMD"	type="data"	source="DATA/ATLAS/4X5.TMD"/>
+			<file name="4X6.TMD"	type="data"	source="DATA/ATLAS/4X6.TMD"/>
+			
+			<file name="12X9.TMD"	type="data"	source="DATA/ATLAS/12X9.TMD"/>
+			
+			<file name="13X14.TMD"	type="data"	source="DATA/ATLAS/13X14.TMD"/>
+			
+			<file name="16X16.TMD"	type="data"	source="DATA/ATLAS/16X16.TMD"/>
+			
+			<!--
+			<file name="1X5.TMD"	type="data"	source="DATA/ATLAS/1X5.TMD"/>
+			<file name="1X6.TMD"	type="data"	source="DATA/ATLAS/1X6.TMD"/>
+			<file name="1X7.TMD"	type="data"	source="DATA/ATLAS/1X7.TMD"/>
+			<file name="1X8.TMD"	type="data"	source="DATA/ATLAS/1X8.TMD"/>
+			<file name="1X9.TMD"	type="data"	source="DATA/ATLAS/1X9.TMD"/>
+			<file name="1X10.TMD"	type="data"	source="DATA/ATLAS/1X10.TMD"/>
+			<file name="1X11.TMD"	type="data"	source="DATA/ATLAS/1X11.TMD"/>
+			<file name="1X12.TMD"	type="data"	source="DATA/ATLAS/1X12.TMD"/>
+			<file name="1X13.TMD"	type="data"	source="DATA/ATLAS/1X13.TMD"/>
+			<file name="1X14.TMD"	type="data"	source="DATA/ATLAS/1X14.TMD"/>
+			<file name="1X15.TMD"	type="data"	source="DATA/ATLAS/1X15.TMD"/>
+			<file name="1X16.TMD"	type="data"	source="DATA/ATLAS/1X16.TMD"/>
+			
+			<file name="2X1.TMD"	type="data"	source="DATA/ATLAS/2X1.TMD"/>
+			<file name="2X2.TMD"	type="data"	source="DATA/ATLAS/2X2.TMD"/>
+			<file name="2X3.TMD"	type="data"	source="DATA/ATLAS/2X3.TMD"/>
+			<file name="2X4.TMD"	type="data"	source="DATA/ATLAS/2X4.TMD"/>
+			<file name="2X5.TMD"	type="data"	source="DATA/ATLAS/2X5.TMD"/>
+			<file name="2X6.TMD"	type="data"	source="DATA/ATLAS/2X6.TMD"/>
+			<file name="2X7.TMD"	type="data"	source="DATA/ATLAS/2X7.TMD"/>
+			<file name="2X8.TMD"	type="data"	source="DATA/ATLAS/2X8.TMD"/>
+			<file name="2X9.TMD"	type="data"	source="DATA/ATLAS/2X9.TMD"/>
+			<file name="2X10.TMD"	type="data"	source="DATA/ATLAS/2X10.TMD"/>
+			<file name="2X11.TMD"	type="data"	source="DATA/ATLAS/2X11.TMD"/>
+			<file name="2X12.TMD"	type="data"	source="DATA/ATLAS/2X12.TMD"/>
+			<file name="2X13.TMD"	type="data"	source="DATA/ATLAS/2X13.TMD"/>
+			<file name="2X14.TMD"	type="data"	source="DATA/ATLAS/2X14.TMD"/>
+			<file name="2X15.TMD"	type="data"	source="DATA/ATLAS/2X15.TMD"/>
+			<file name="2X16.TMD"	type="data"	source="DATA/ATLAS/2X16.TMD"/>
+			
+			<file name="3X1.TMD"	type="data"	source="DATA/ATLAS/3X1.TMD"/>
+			<file name="3X2.TMD"	type="data"	source="DATA/ATLAS/3X2.TMD"/>
+			<file name="3X3.TMD"	type="data"	source="DATA/ATLAS/3X3.TMD"/>
+			<file name="3X4.TMD"	type="data"	source="DATA/ATLAS/3X4.TMD"/>
+			<file name="3X5.TMD"	type="data"	source="DATA/ATLAS/3X5.TMD"/>
+			<file name="3X6.TMD"	type="data"	source="DATA/ATLAS/3X6.TMD"/>
+			<file name="3X7.TMD"	type="data"	source="DATA/ATLAS/3X7.TMD"/>
+			<file name="3X8.TMD"	type="data"	source="DATA/ATLAS/3X8.TMD"/>
+			<file name="3X9.TMD"	type="data"	source="DATA/ATLAS/3X9.TMD"/>
+			<file name="3X10.TMD"	type="data"	source="DATA/ATLAS/3X10.TMD"/>
+			<file name="3X11.TMD"	type="data"	source="DATA/ATLAS/3X11.TMD"/>
+			<file name="3X12.TMD"	type="data"	source="DATA/ATLAS/3X12.TMD"/>
+			<file name="3X13.TMD"	type="data"	source="DATA/ATLAS/3X13.TMD"/>
+			<file name="3X14.TMD"	type="data"	source="DATA/ATLAS/3X14.TMD"/>
+			<file name="3X15.TMD"	type="data"	source="DATA/ATLAS/3X15.TMD"/>
+			<file name="3X16.TMD"	type="data"	source="DATA/ATLAS/3X16.TMD"/>
+			
+			<file name="4X1.TMD"	type="data"	source="DATA/ATLAS/4X1.TMD"/>
+			<file name="4X2.TMD"	type="data"	source="DATA/ATLAS/4X2.TMD"/>
+			<file name="4X3.TMD"	type="data"	source="DATA/ATLAS/4X3.TMD"/>
+			<file name="4X4.TMD"	type="data"	source="DATA/ATLAS/4X4.TMD"/>
+			<file name="4X5.TMD"	type="data"	source="DATA/ATLAS/4X5.TMD"/>
+			<file name="4X6.TMD"	type="data"	source="DATA/ATLAS/4X6.TMD"/>
+			<file name="4X7.TMD"	type="data"	source="DATA/ATLAS/4X7.TMD"/>
+			<file name="4X8.TMD"	type="data"	source="DATA/ATLAS/4X8.TMD"/>
+			<file name="4X9.TMD"	type="data"	source="DATA/ATLAS/4X9.TMD"/>
+			<file name="4X10.TMD"	type="data"	source="DATA/ATLAS/4X10.TMD"/>
+			<file name="4X11.TMD"	type="data"	source="DATA/ATLAS/4X11.TMD"/>
+			<file name="4X12.TMD"	type="data"	source="DATA/ATLAS/4X12.TMD"/>
+			<file name="4X13.TMD"	type="data"	source="DATA/ATLAS/4X13.TMD"/>
+			<file name="4X14.TMD"	type="data"	source="DATA/ATLAS/4X14.TMD"/>
+			<file name="4X15.TMD"	type="data"	source="DATA/ATLAS/4X15.TMD"/>
+			<file name="4X16.TMD"	type="data"	source="DATA/ATLAS/4X16.TMD"/>
+			
+			<file name="5X1.TMD"	type="data"	source="DATA/ATLAS/5X1.TMD"/>
+			<file name="5X2.TMD"	type="data"	source="DATA/ATLAS/5X2.TMD"/>
+			<file name="5X3.TMD"	type="data"	source="DATA/ATLAS/5X3.TMD"/>
+			<file name="5X4.TMD"	type="data"	source="DATA/ATLAS/5X4.TMD"/>
+			<file name="5X5.TMD"	type="data"	source="DATA/ATLAS/5X5.TMD"/>
+			<file name="5X6.TMD"	type="data"	source="DATA/ATLAS/5X6.TMD"/>
+			<file name="5X7.TMD"	type="data"	source="DATA/ATLAS/5X7.TMD"/>
+			<file name="5X8.TMD"	type="data"	source="DATA/ATLAS/5X8.TMD"/>
+			<file name="5X9.TMD"	type="data"	source="DATA/ATLAS/5X9.TMD"/>
+			<file name="5x10.TMD"	type="data"	source="DATA/ATLAS/5X10.TMD"/>
+			<file name="5X11.TMD"	type="data"	source="DATA/ATLAS/5X11.TMD"/>
+			<file name="5X12.TMD"	type="data"	source="DATA/ATLAS/5X12.TMD"/>
+			<file name="5X13.TMD"	type="data"	source="DATA/ATLAS/5X13.TMD"/>
+			<file name="5X14.TMD"	type="data"	source="DATA/ATLAS/5X14.TMD"/>
+			<file name="5X15.TMD"	type="data"	source="DATA/ATLAS/5X15.TMD"/>
+			<file name="5X16.TMD"	type="data"	source="DATA/ATLAS/5X16.TMD"/>
+			
+			<file name="6X1.TMD"	type="data"	source="DATA/ATLAS/6X1.TMD"/>
+			<file name="6X2.TMD"	type="data"	source="DATA/ATLAS/6X2.TMD"/>
+			<file name="6X3.TMD"	type="data"	source="DATA/ATLAS/6X3.TMD"/>
+			<file name="6X4.TMD"	type="data"	source="DATA/ATLAS/6X4.TMD"/>
+			<file name="6X5.TMD"	type="data"	source="DATA/ATLAS/6X5.TMD"/>
+			<file name="6X6.TMD"	type="data"	source="DATA/ATLAS/6X6.TMD"/>
+			<file name="6X7.TMD"	type="data"	source="DATA/ATLAS/6X7.TMD"/>
+			<file name="6X8.TMD"	type="data"	source="DATA/ATLAS/6X8.TMD"/>
+			<file name="6X9.TMD"	type="data"	source="DATA/ATLAS/6X9.TMD"/>
+			<file name="6X10.TMD"	type="data"	source="DATA/ATLAS/6X10.TMD"/>
+			<file name="6X11.TMD"	type="data"	source="DATA/ATLAS/6X11.TMD"/>
+			<file name="6X12.TMD"	type="data"	source="DATA/ATLAS/6X12.TMD"/>
+			<file name="6X13.TMD"	type="data"	source="DATA/ATLAS/6X13.TMD"/>
+			<file name="6X14.TMD"	type="data"	source="DATA/ATLAS/6X14.TMD"/>
+			<file name="6X15.TMD"	type="data"	source="DATA/ATLAS/6X15.TMD"/>
+			<file name="6X16.TMD"	type="data"	source="DATA/ATLAS/6X16.TMD"/>
+			
+			<file name="7X1.TMD"	type="data"	source="DATA/ATLAS/7X1.TMD"/>
+			<file name="7X2.TMD"	type="data"	source="DATA/ATLAS/7X2.TMD"/>
+			<file name="7X3.TMD"	type="data"	source="DATA/ATLAS/7X3.TMD"/>
+			<file name="7X4.TMD"	type="data"	source="DATA/ATLAS/7X4.TMD"/>
+			<file name="7X5.TMD"	type="data"	source="DATA/ATLAS/7X5.TMD"/>
+			<file name="7X6.TMD"	type="data"	source="DATA/ATLAS/7X6.TMD"/>
+			<file name="7X7.TMD"	type="data"	source="DATA/ATLAS/7X7.TMD"/>
+			<file name="7X8.TMD"	type="data"	source="DATA/ATLAS/7X8.TMD"/>
+			<file name="7X9.TMD"	type="data"	source="DATA/ATLAS/7X9.TMD"/>
+			<file name="7X10.TMD"	type="data"	source="DATA/ATLAS/7X10.TMD"/>
+			<file name="7X11.TMD"	type="data"	source="DATA/ATLAS/7X11.TMD"/>
+			<file name="7X12.TMD"	type="data"	source="DATA/ATLAS/7X12.TMD"/>
+			<file name="7X13.TMD"	type="data"	source="DATA/ATLAS/7X13.TMD"/>
+			<file name="7X14.TMD"	type="data"	source="DATA/ATLAS/7X14.TMD"/>
+			<file name="7X15.TMD"	type="data"	source="DATA/ATLAS/7X15.TMD"/>
+			<file name="7X16.TMD"	type="data"	source="DATA/ATLAS/7X16.TMD"/>
+			
+			<file name="8X1.TMD"	type="data"	source="DATA/ATLAS/8X1.TMD"/>
+			<file name="8X2.TMD"	type="data"	source="DATA/ATLAS/8X2.TMD"/>
+			<file name="8X3.TMD"	type="data"	source="DATA/ATLAS/8X3.TMD"/>
+			<file name="8X4.TMD"	type="data"	source="DATA/ATLAS/8X4.TMD"/>
+			<file name="8X5.TMD"	type="data"	source="DATA/ATLAS/8X5.TMD"/>
+			<file name="8X6.TMD"	type="data"	source="DATA/ATLAS/8X6.TMD"/>
+			<file name="8X7.TMD"	type="data"	source="DATA/ATLAS/8X7.TMD"/>
+			<file name="8X8.TMD"	type="data"	source="DATA/ATLAS/8X8.TMD"/>
+			<file name="8X9.TMD"	type="data"	source="DATA/ATLAS/8X9.TMD"/>
+			<file name="8X10.TMD"	type="data"	source="DATA/ATLAS/8X10.TMD"/>
+			<file name="8X11.TMD"	type="data"	source="DATA/ATLAS/8X11.TMD"/>
+			<file name="8X12.TMD"	type="data"	source="DATA/ATLAS/8X12.TMD"/>
+			<file name="8X13.TMD"	type="data"	source="DATA/ATLAS/8X13.TMD"/>
+			<file name="8X14.TMD"	type="data"	source="DATA/ATLAS/8X14.TMD"/>
+			<file name="8X15.TMD"	type="data"	source="DATA/ATLAS/8X15.TMD"/>
+			<file name="8X16.TMD"	type="data"	source="DATA/ATLAS/8X16.TMD"/>
+			
+			<file name="9X1.TMD"	type="data"	source="DATA/ATLAS/9X1.TMD"/>
+			<file name="9X2.TMD"	type="data"	source="DATA/ATLAS/9X2.TMD"/>
+			<file name="9X3.TMD"	type="data"	source="DATA/ATLAS/9X3.TMD"/>
+			<file name="9X4.TMD"	type="data"	source="DATA/ATLAS/9X4.TMD"/>
+			<file name="9X5.TMD"	type="data"	source="DATA/ATLAS/9X5.TMD"/>
+			<file name="9X6.TMD"	type="data"	source="DATA/ATLAS/9X6.TMD"/>
+			<file name="9X7.TMD"	type="data"	source="DATA/ATLAS/9X7.TMD"/>
+			<file name="9X8.TMD"	type="data"	source="DATA/ATLAS/9X8.TMD"/>
+			<file name="9X9.TMD"	type="data"	source="DATA/ATLAS/9X9.TMD"/>
+			<file name="9X10.TMD"	type="data"	source="DATA/ATLAS/9X10.TMD"/>
+			<file name="9X11.TMD"	type="data"	source="DATA/ATLAS/9X11.TMD"/>
+			<file name="9X12.TMD"	type="data"	source="DATA/ATLAS/9X12.TMD"/>
+			<file name="9X13.TMD"	type="data"	source="DATA/ATLAS/9X13.TMD"/>
+			<file name="9X14.TMD"	type="data"	source="DATA/ATLAS/9X14.TMD"/>
+			<file name="9X15.TMD"	type="data"	source="DATA/ATLAS/9X15.TMD"/>
+			<file name="9X16.TMD"	type="data"	source="DATA/ATLAS/9X16.TMD"/>
+			
+			<file name="10X1.TMD"	type="data"	source="DATA/ATLAS/10X1.TMD"/>
+			<file name="10X2.TMD"	type="data"	source="DATA/ATLAS/10X2.TMD"/>
+			<file name="10X3.TMD"	type="data"	source="DATA/ATLAS/10X3.TMD"/>
+			<file name="10X4.TMD"	type="data"	source="DATA/ATLAS/10X4.TMD"/>
+			<file name="10X5.TMD"	type="data"	source="DATA/ATLAS/10X5.TMD"/>
+			<file name="10X6.TMD"	type="data"	source="DATA/ATLAS/10X6.TMD"/>
+			<file name="10X7.TMD"	type="data"	source="DATA/ATLAS/10X7.TMD"/>
+			<file name="10X8.TMD"	type="data"	source="DATA/ATLAS/10X8.TMD"/>
+			<file name="10X9.TMD"	type="data"	source="DATA/ATLAS/10X9.TMD"/>
+			<file name="10X10.TMD"	type="data"	source="DATA/ATLAS/10X10.TMD"/>
+			<file name="10X11.TMD"	type="data"	source="DATA/ATLAS/10X11.TMD"/>
+			<file name="10X12.TMD"	type="data"	source="DATA/ATLAS/10X12.TMD"/>
+			<file name="10X13.TMD"	type="data"	source="DATA/ATLAS/10X13.TMD"/>
+			<file name="10X14.TMD"	type="data"	source="DATA/ATLAS/10X14.TMD"/>
+			<file name="10X15.TMD"	type="data"	source="DATA/ATLAS/10X15.TMD"/>
+			<file name="10X16.TMD"	type="data"	source="DATA/ATLAS/10X16.TMD"/>
+			
+			<file name="11X1.TMD"	type="data"	source="DATA/ATLAS/11X1.TMD"/>
+			<file name="11X2.TMD"	type="data"	source="DATA/ATLAS/11X2.TMD"/>
+			<file name="11X3.TMD"	type="data"	source="DATA/ATLAS/11X3.TMD"/>
+			<file name="11X4.TMD"	type="data"	source="DATA/ATLAS/11X4.TMD"/>
+			<file name="11X5.TMD"	type="data"	source="DATA/ATLAS/11X5.TMD"/>
+			<file name="11X6.TMD"	type="data"	source="DATA/ATLAS/11X6.TMD"/>
+			<file name="11X7.TMD"	type="data"	source="DATA/ATLAS/11X7.TMD"/>
+			<file name="11X8.TMD"	type="data"	source="DATA/ATLAS/11X8.TMD"/>
+			<file name="11X9.TMD"	type="data"	source="DATA/ATLAS/11X9.TMD"/>
+			<file name="11X10.TMD"	type="data"	source="DATA/ATLAS/11X10.TMD"/>
+			<file name="11X11.TMD"	type="data"	source="DATA/ATLAS/11X11.TMD"/>
+			<file name="11X12.TMD"	type="data"	source="DATA/ATLAS/11X12.TMD"/>
+			<file name="11X13.TMD"	type="data"	source="DATA/ATLAS/11X13.TMD"/>
+			<file name="11X14.TMD"	type="data"	source="DATA/ATLAS/11X14.TMD"/>
+			<file name="11X15.TMD"	type="data"	source="DATA/ATLAS/11X15.TMD"/>
+			<file name="11X16.TMD"	type="data"	source="DATA/ATLAS/11X16.TMD"/>
+			
+			<file name="12X1.TMD"	type="data"	source="DATA/ATLAS/12X1.TMD"/>
+			<file name="12X2.TMD"	type="data"	source="DATA/ATLAS/12X2.TMD"/>
+			<file name="12X3.TMD"	type="data"	source="DATA/ATLAS/12X3.TMD"/>
+			<file name="12X4.TMD"	type="data"	source="DATA/ATLAS/12X4.TMD"/>
+			<file name="12X5.TMD"	type="data"	source="DATA/ATLAS/12X5.TMD"/>
+			<file name="12X6.TMD"	type="data"	source="DATA/ATLAS/12X6.TMD"/>
+			<file name="12X7.TMD"	type="data"	source="DATA/ATLAS/12X7.TMD"/>
+			<file name="12X8.TMD"	type="data"	source="DATA/ATLAS/12X8.TMD"/>
+			<file name="12X9.TMD"	type="data"	source="DATA/ATLAS/12X9.TMD"/>
+			<file name="12X10.TMD"	type="data"	source="DATA/ATLAS/12X10.TMD"/>
+			<file name="12X11.TMD"	type="data"	source="DATA/ATLAS/12X11.TMD"/>
+			<file name="12X12.TMD"	type="data"	source="DATA/ATLAS/12X12.TMD"/>
+			<file name="12X13.TMD"	type="data"	source="DATA/ATLAS/12X13.TMD"/>
+			<file name="12X14.TMD"	type="data"	source="DATA/ATLAS/12X14.TMD"/>
+			<file name="12X15.TMD"	type="data"	source="DATA/ATLAS/12X15.TMD"/>
+			<file name="12X16.TMD"	type="data"	source="DATA/ATLAS/12X16.TMD"/>
+			--><!-- 
+			<file name="13X1.TMD"	type="data"	source="DATA/ATLAS/13X1.TMD"/>
+			<file name="13X2.TMD"	type="data"	source="DATA/ATLAS/13X2.TMD"/>
+			<file name="13X3.TMD"	type="data"	source="DATA/ATLAS/13X3.TMD"/>
+			<file name="13X4.TMD"	type="data"	source="DATA/ATLAS/13X4.TMD"/>
+			<file name="13X5.TMD"	type="data"	source="DATA/ATLAS/13X5.TMD"/>
+			<file name="13X6.TMD"	type="data"	source="DATA/ATLAS/13X6.TMD"/>
+			<file name="13X7.TMD"	type="data"	source="DATA/ATLAS/13X7.TMD"/>
+			<file name="13X8.TMD"	type="data"	source="DATA/ATLAS/13X8.TMD"/>
+			<file name="13X9.TMD"	type="data"	source="DATA/ATLAS/13X9.TMD"/>
+			<file name="13X10.TMD"	type="data"	source="DATA/ATLAS/13X10.TMD"/>
+			<file name="13X11.TMD"	type="data"	source="DATA/ATLAS/13X11.TMD"/>
+			<file name="13X12.TMD"	type="data"	source="DATA/ATLAS/13X12.TMD"/>
+			<file name="13X13.TMD"	type="data"	source="DATA/ATLAS/13X13.TMD"/>
+			<file name="13X14.TMD"	type="data"	source="DATA/ATLAS/13X14.TMD"/>
+			<file name="13X15.TMD"	type="data"	source="DATA/ATLAS/13X15.TMD"/>
+			<file name="13X16.TMD"	type="data"	source="DATA/ATLAS/13X16.TMD"/>
+			
+			<file name="14X1.TMD"	type="data"	source="DATA/ATLAS/14X1.TMD"/>
+			<file name="14X2.TMD"	type="data"	source="DATA/ATLAS/14X2.TMD"/>
+			<file name="14X3.TMD"	type="data"	source="DATA/ATLAS/14X3.TMD"/>
+			<file name="14X4.TMD"	type="data"	source="DATA/ATLAS/14X4.TMD"/>
+			<file name="14X5.TMD"	type="data"	source="DATA/ATLAS/14X5.TMD"/>
+			<file name="14X6.TMD"	type="data"	source="DATA/ATLAS/14X6.TMD"/>
+			<file name="14X7.TMD"	type="data"	source="DATA/ATLAS/14X7.TMD"/>
+			<file name="14X8.TMD"	type="data"	source="DATA/ATLAS/14X8.TMD"/>
+			<file name="14X9.TMD"	type="data"	source="DATA/ATLAS/14X9.TMD"/>
+			<file name="14X10.TMD"	type="data"	source="DATA/ATLAS/14X10.TMD"/>
+			<file name="14X11.TMD"	type="data"	source="DATA/ATLAS/14X11.TMD"/>
+			<file name="14X12.TMD"	type="data"	source="DATA/ATLAS/14X12.TMD"/>
+			<file name="14X13.TMD"	type="data"	source="DATA/ATLAS/14X13.TMD"/>
+			<file name="14X14.TMD"	type="data"	source="DATA/ATLAS/14X14.TMD"/>
+			<file name="14X15.TMD"	type="data"	source="DATA/ATLAS/14X15.TMD"/>
+			<file name="14X16.TMD"	type="data"	source="DATA/ATLAS/14X16.TMD"/>
+			
+			<file name="15X1.TMD"	type="data"	source="DATA/ATLAS/15X1.TMD"/>
+			<file name="15X2.TMD"	type="data"	source="DATA/ATLAS/15X2.TMD"/>
+			<file name="15X3.TMD"	type="data"	source="DATA/ATLAS/15X3.TMD"/>
+			<file name="15X4.TMD"	type="data"	source="DATA/ATLAS/15X4.TMD"/>
+			<file name="15X5.TMD"	type="data"	source="DATA/ATLAS/15X5.TMD"/>
+			<file name="15X6.TMD"	type="data"	source="DATA/ATLAS/15X6.TMD"/>
+			<file name="15X7.TMD"	type="data"	source="DATA/ATLAS/15X7.TMD"/>
+			<file name="15X8.TMD"	type="data"	source="DATA/ATLAS/15X8.TMD"/>
+			<file name="15X9.TMD"	type="data"	source="DATA/ATLAS/15X9.TMD"/>
+			<file name="15X10.TMD"	type="data"	source="DATA/ATLAS/15X10.TMD"/>
+			<file name="15X11.TMD"	type="data"	source="DATA/ATLAS/15X11.TMD"/>
+			<file name="15X12.TMD"	type="data"	source="DATA/ATLAS/15X12.TMD"/>
+			<file name="15X13.TMD"	type="data"	source="DATA/ATLAS/15X13.TMD"/>
+			<file name="15X14.TMD"	type="data"	source="DATA/ATLAS/15X14.TMD"/>
+			<file name="15X15.TMD"	type="data"	source="DATA/ATLAS/15X15.TMD"/>
+			<file name="15X16.TMD"	type="data"	source="DATA/ATLAS/15X16.TMD"/>
+			
+			<file name="16X1.TMD"	type="data"	source="DATA/ATLAS/16X1.TMD"/>
+			<file name="16X2.TMD"	type="data"	source="DATA/ATLAS/16X2.TMD"/>
+			<file name="16X3.TMD"	type="data"	source="DATA/ATLAS/16X3.TMD"/>
+			<file name="16X4.TMD"	type="data"	source="DATA/ATLAS/16X4.TMD"/>
+			<file name="16X5.TMD"	type="data"	source="DATA/ATLAS/16X5.TMD"/>
+			<file name="16X6.TMD"	type="data"	source="DATA/ATLAS/16X6.TMD"/>
+			<file name="16X7.TMD"	type="data"	source="DATA/ATLAS/16X7.TMD"/>
+			<file name="16X8.TMD"	type="data"	source="DATA/ATLAS/16X8.TMD"/>
+			<file name="16X9.TMD"	type="data"	source="DATA/ATLAS/16X9.TMD"/>
+			<file name="16X10.TMD"	type="data"	source="DATA/ATLAS/16X10.TMD"/>
+			<file name="16X11.TMD"	type="data"	source="DATA/ATLAS/16X11.TMD"/>
+			<file name="16X12.TMD"	type="data"	source="DATA/ATLAS/16X12.TMD"/>
+			<file name="16X13.TMD"	type="data"	source="DATA/ATLAS/16X13.TMD"/>
+			<file name="16X14.TMD"	type="data"	source="DATA/ATLAS/16X14.TMD"/>
+			<file name="16X15.TMD"	type="data"	source="DATA/ATLAS/16X15.TMD"/>
+			<file name="16X16.TMD"	type="data"	source="DATA/ATLAS/16X16.TMD"/>
+			-->
+			<dummy sectors="1024"/>
+		</directory_tree>
+	</track>
+</iso_project>
